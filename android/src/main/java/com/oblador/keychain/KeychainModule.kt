@@ -142,7 +142,6 @@ class KeychainModule(reactContext: ReactApplicationContext) :
     addCipherStorageToMap(CipherStorageKeystoreAesCbc(reactContext))
     addCipherStorageToMap(CipherStorageKeystoreAesGcm(reactContext, false))
     addCipherStorageToMap(CipherStorageKeystoreAesGcm(reactContext, true))
-    addCipherStorageToMap(CipherStorageKeystoreRsaEcb(reactContext))
   }
 
   // endregion
