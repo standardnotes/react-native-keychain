@@ -94,7 +94,7 @@ KeychainExample/e2e/output
 KeychainExample/artifacts
 
 # React Native Bob Builder
-# lib
+lib
 
 # Docosaurus
 /build

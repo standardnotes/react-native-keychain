@@ -9,7 +9,7 @@
   "source": "./src/index",
   "files": [
     "android",
-    "ios/RNKeychainManager",
+    "ios",
     "lib",
     "src",
     "RNKeychain.podspec"
@@ -18,7 +18,7 @@
     "format": "prettier '{,typings/,KeychainExample/}*.{md,js,json,ts,tsx}' --write",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "typecheck": "tsc -p tsconfig.json",
-    "prepare": "bob build"
+    "prepack": "bob build"
   },
   "workspaces": [
     "KeychainExample",
